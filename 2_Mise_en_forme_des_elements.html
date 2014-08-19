@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="container">
+      <h1>Les listes</h1>
+      <ul class="list-unstyled list-inline">
+        <li>Windows</li>
+        <li>Linux</li>
+        <li>Mac os</li>
+      </ul>
+
+      <h1>Les descriptions</h1>
+      <dl class="dl-horizontal">
+        <dt>Tigre</dt>
+        <dd>Animal d'asie, grand et puissan, au pelage jaune rayé de noir, de la famille des félins.</dd>
+
+        <dt>Panthère</dt>
+        <dd>Félidé d'afrique et d'asie au pélage jaune tâché de noir.</dd>
+      </dl>
+
+      <h1>Les tableaux</h1>
+      <section class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <caption>
+            <h4>Les menaces pour les tigres</h4>
+          </caption>
+          <thead>
+            <tr>
+              <th>Lieu</td>
+              <th>Menace</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="danger">
+              <td>Grand Mekong</td>
+              <td>Demande croissante de certaines parties de l'animal pour la médecine chinoise traditionnelle et ......</td>
+            </tr>
+            <tr class="active">
+              <td>Île de Sumatra</td>
+              <td>Production d'huile de palme et de pâtes à papier</td>
+            </tr>
+            <tr class="info">
+              <td>Etats-Unis</td>
+              <td>Les tigres captifs représentent un danger pour les tigres sauvages</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <h1>Les formulaires</h1>
+      <form class="well">
+        <legend>Si vous voulez me laisser un message</legend>
+        <h4>Comment m'avez-vous trouvé ?</h4>
+        <fieldset>
+          <label for="ami" class="radio">
+            <input type="radio" name="origine" value="ami" id="ami">
+            Par un ami
+          </label>
+          <label for="web" class="radio">
+            <input type="radio" name="origine" value="web" id="web">
+            Sur le web
+          </label>
+          <label for="hasard" class="radio">
+            <input type="radio" name="origine" value="hasard" id="hasard">
+            Par hasard
+          </label>
+          <label for="autre" class="radio">
+            <input type="radio" name="origine" value="autre" id="autre">
+            Autre ...
+          </label>
+
+          <label for="textarea">Votre message :</label>
+          <textarea id="textarea" class="form-control"></textarea>
+
+          <label for="text">Text :</label>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" id="text" value="100">
+            <span class="input-group-btn">
+              <button class="btn btn-primary pull-right" type="button">Valider</button>
+            </span>
+          </div>
+
+          <p class="help-block">Vous pouvez agrandir la fenêtre</p>
+        </fieldset>
+        
+        <button class="btn btn-primary" type="submit">
+          <span class="glyphicon glyphicon-ok-sign"></span>
+          Envoyer
+        </button>
+      </form>
+
+      <h1>Bouttons, icons et images</h1>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-success btn-xs">Danger</button>
+      <div class="row">
+        <div class="col-xs-8">
+          <button type="button" class="btn btn-info btn-block">Bouton 8</button>
+        </div>
+        <div class="col-xs-4">
+          <button type="button" class="btn btn-default btn-block">Bouton 4</button>
+        </div>
+      </div>
+
+      <div class="btn-group-vertical">
+        <a href="#" class="btn btn-danger">1</a>
+        <a href="#" class="btn btn-info">2</a>
+        <a href="#" class="btn btn-warning">3</a>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="btn-group btn-group-justified">
+          <a href="#" class="btn btn-danger">1</a>
+          <a href="#" class="btn btn-info">2</a>
+          <a href="#" class="btn btn-warning">3</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
