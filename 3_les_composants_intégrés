@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>La navigation</h1>
+      <div class="navbar navbar-default navbar">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Mon beau site</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Accueil</a></li>
+          <li><a href="#">Liens</a></li>
+          <li><a href="#">Témoignages</a></li>
+          <li><a href="#">Références</a></li>
+        </ul>
+        <form action="" class="navbar-form pull-right">
+          <input type="text" class="input-sm form-control" style="width:150px">
+          <button type="submit" class="btn btn-primary btn-sm">
+            <span class="glyphicon glyphicon-eye-open">Chercher</span>
+          </button>
+        </form>
+      </div>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi aspernatur voluptas. Necessitatibus ex dolorem nobis sint deserunt aut nisi labore veritatis ad laudantium neque omnis eligendi commodi delectus voluptate dolores sit, mollitia saepe! Veritatis eaque laborum perferendis maxime deleniti in quibusdam minus omnis nisi autem dolorum minima temporibus labore, et sapiente quae a itaque non ad. Tempore expedita dicta a eveniet. Repellendus eius perspiciatis possimus et, magnam? Ab voluptates, nisi itaque unde, fugit in ratione laudantium voluptate voluptatum fuga culpa rem maiores sit ea. Commodi repellat blanditiis voluptate odit temporibus quod reprehenderit, accusantium ipsa, dolorem impedit iure adipisci esse nemo mollitia iusto quis perferendis necessitatibus laboriosam eum libero velit facilis rem. Error rerum adipisci modi animi fuga sequi maiores nesciunt hic harum autem blanditiis deleniti placeat dolorem deserunt at labore provident perferendis, corrupti facilis nobis non porro! Blanditiis nulla asperiores labore eveniet quae laudantium est neque necessitatibus consectetur aliquid velit provident, quibusdam in suscipit voluptatibus ipsa corporis officia consequatur itaque deserunt reiciendis, alias eaque quod numquam. Voluptate numquam tempora repudiandae, ipsa voluptatum, nobis iure aspernatur ducimus, quibusdam nostrum tempore labore quo totam aliquid ratione nihil repellat. Iste rem eveniet molestias, velit repudiandae ad veniam repellat obcaecati cumque cum error!</p>
+
+      <h1>La pagination</h1>
+
+        <ul class="pagination">
+          <li><a href="#"><<</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">>></a></li>
+        </ul>
+
+        <ul class="pager col-lg-12">
+          <li class="previous"><a href="#"><span class="glyphicon glyphicon-backward"></span>Précédent</a></li>
+          <li class="next"><a href="#"><span class="glyphicon glyphicon-forward"></span>Suivant</a></li>
+        </ul>
+
+      <h1>Aide à la navigation (Le fil d'ariane)</h1>
+      <ul class="breadcrumb">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Témoignages</a></li>
+        <li class="active">Chasseurs</li>
+      </ul>
+
+      <h1>Effets typographiques et thumbnails</h1>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Salem</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis tenetur ad magni perspiciatis, nulla vel non neque voluptas inventore ipsa.</p>
+        <p><a href="#" class="btn btn-info btn-lg">En savoir plus <span class="glyphicon glyphicon-hand-right"></span></a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1><span class="label label-info">Valeur de signalement</span></h1>
+      <h2><span class="label label-success">Valeur de fonctionnement</span></h2>
+      <h3><span class="label label-warning">Valeur dangereuse</span></h3>
+      <h4><span class="label label-danger">Valeur critique</span></h4>
+      <p><span class="label label-default">Valeur d'inhibition</span></p>
+      <p>example de badge <a href="">Messages reçus </a><span class="badge"> 20</span></p>
+    </div>
+
+    <div class="container">
+      <h1>Les liste groupés</h1>
+      <ul class="list-group col-lg-4">
+        <li class="list-group-item active">active item<span class="badge">11</span></li>
+        <li class="list-group-item list-group-item-success">item 1 <span class="badge">11</span></li>
+        <li class="list-group-item list-group-item-info">item 2 <span class="badge">22</span></li>
+        <li class="list-group-item list-group-item-warning">item 3 <span class="badge">33</span></li>
+        <li class="list-group-item list-group-item-danger">item 4 <span class="badge">44</span></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h1>Les panneaux</h1>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3>Title</h3>
+        </div>
+        <div class="panel-body">Contenu</div>
+        <div class="panel-footer"><h3>Pied de page</h3></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Alertes et barres de progression</h1>
+      <div class="alert alert-info"><strong>Infos</strong></div>
+      <div class="alert alert-success"><strong>Bravo</strong></div>
+      <div class="alert alert-danger"><strong>Danger</strong></div>
+      <div class="alert alert-warning"><strong>warning</strong></div>
+      <div class="alert alert-danger">
+        <button type="button" class="close" data-dimension="alert">&times</button>
+        <strong>closable one</strong>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $(".pagination>li").click(function(){
+        $(".pagination>li").each(function(){
+          $(this).attr("class", "");
+        })
+        $(this).attr("class", "active");
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+      <div class="container">
+        <h1>Menu Déroulant</h1>
+
+        <div class="navbar navbar-default navbar">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">Mon beau site</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Accueil</a></li>
+            <li><a href="#">Liens</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#">Témoignages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dompteurs</a></li>
+                <li><a href="#">Zoos</a></li>
+                <li><a href="#">Chasseurs</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Autres témoignages</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Références</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-info">Action</button>
+          <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Personnel</li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Dompteurs</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> Chasseurs</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Lieux</li>
+            <li><a href="#"><span class="glyphicon glyphicon-picture"></span> Zoos</a></li>
+            <li class="disabled"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Autres témoignages</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>La fenêtre modale</h1>
+        <a class="btn btn-primary" data-toggle="modal" href="#infos">Informations</a>
+        <div class="modal fade" id="infos">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal" type="button">x</button>
+                <h4 class="modal-title">Plus d'informations</h4>
+              </div>
+              <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, odio magni! Maxime reiciendis ea in iusto, at vero earum sequi!</div>
+              <div class="modal-footer">
+                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>Les onglets</h1>
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#accueil" data-toggle="tab">Accueil</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Livres
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#policiers" data-toggle="tab">Policiers</a></li>
+              <li><a href="#romans" data-toggle="tab">Romans</a></li>
+              <li><a href="#contes" data-toggle="tab">Contes</a></li>
+            </ul>
+          </li>
+          <li><a href="#temoignages" data-toggle="tab">Témoignages</a></li>
+        </ul>
+        <ul class="tab-content">
+          <div class="tab-pane fade active in" id="accueil">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe corporis non, ex minus numquam? Odit a incidunt sapiente corrupti quasi aliquid iusto. Rerum voluptas, eum amet iure repellendus libero pariatur.</div>
+          <div class="tab-pane fade" id="policiers">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iure sit voluptatibus. Suscipit maiores ea sunt accusantium quod modi ipsa in id commodi, repudiandae sed quae tenetur maxime porro, aspernatur!</div>
+          <div class="tab-pane fade" id="romans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eius aut, excepturi enim, aspernatur voluptatem molestiae accusamus autem illum laudantium similique in officia! Dolores delectus facilis iure inventore, sint tempora.</div>
+          <div class="tab-pane fade" id="contes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorem iste tenetur nostrum nulla reprehenderit, quod magnam asperiores dignissimos! A voluptate sed tempore expedita, illum, cumque! Aperiam doloremque, facere earum?</div>
+          <div class="tab-pane fade" id="temoignages">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reprehenderit dolore impedit placeat doloribus, laboriosam aspernatur, ipsum exercitationem voluptatem omnis eos libero odio velit aliquam ducimus molestiae quas dolores iusto!</div>
+        </ul>
+      </div>
+
+      <div class="container">
+        <h1>Les boutons</h1>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-warning">
+            <input type="checkbox">Un
+          </label>
+          <label class="btn btn-warning">
+            <input type="checkbox">Deux
+          </label>
+          <label class="btn btn-warning">
+            <input type="checkbox">Trois
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-info">
+            <input type="radio">Un
+          </label>
+          <label class="btn btn-info">
+            <input type="radio">Deux
+          </label>
+          <label class="btn btn-info">
+            <input type="radio">Trois
+          </label>
+        </div>
+
+        <button id="btn" class="btn btn-primary" data-loading-text="Chargement..." type="button">Cliquez !!! </button>
+      </div>
+
+      <div class="container">
+        <h1>Carrousel</h1>
+        <div class="carousel slide" id="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner thumbnail">
+            <div class="item active">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nostrum totam doloribus ab earum facilis eaque quis ea dolore aut esse repellendus recusandae a inventore necessitatibus, itaque tempora atque ipsam.</p>
+            </div>
+            <div class="item">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quis natus error, nisi non atque, ad, quidem aliquam expedita voluptatem voluptatum laudantium eos id hic modi iure quia saepe. Veniam.</p>
+            </div>
+            <div class="item">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est molestias libero odio iste, laudantium mollitia pariatur, accusantium numquam repudiandae tenetur voluptate eligendi dolores deserunt assumenda sint fuga voluptatum ipsam.</p>
+            </div>
+          </div>
+          <a href="#carousel" class="left carousel-control" data-slde="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a href="#carousel" class="right carousel-control" data-slde="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>Les bulles et les popovers</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, facilis! <a href="#" data-toggle="tooltip" title="Exemple d'info bulle">Exemple de bulle</a>
+
+        <a href="#" id="popover" class="btn btn-info" id="pop" data-toggle="popover" data-content="C'est tous simple" title="Test" du="" popover="">Cliquez pour voir le popover</a>
+      </div>
+
+      <div class="container">
+        <h1>Accordéon</h1>
+        <div class="panel-group">
+          <h3>Les plugins de bootstrap</h3>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="#item1" class="occordion-toggle" data-toggle="collapse">Accordéon</a>
+            </div>
+            <div id="item1" class="panel-collapse collapse in">
+              <div class="panel-body">
+                Ce plugin permet de créer des effets accordéons totalment paramétrables
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="#item2" class="occordion-toggle" data-toggle="collapse">Fenêtre modale</a>
+            </div>
+            <div id="item2" class="panel-collapse collapse">
+              <div class="panel-body">
+                Ce plugin permet de créer des fenêtres modale élégantes avec une grande simplicité
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="#item3" class="occordion-toggle" data-toggle="collapse">Lorem.</a>
+            </div>
+            <div id="item3" class="panel-collapse collapse">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, tempora!
+              </div>
+            </div>          
+          </div>
+        </div>
+        <div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <span id="icon" class="glyphicon glyphicon-folder-close">
+                  <a href="#menu" data-toggle="collapse">Conteneur</a>
+                </span>
+              </div>
+              <ul id="menu" class="list-group collapse in">
+                <li class="list-group-item">
+                  <span class="glyphicon glyphicon-pencil text-primary">  Articles</span>
+                </li>
+                <li class="list-group-item">
+                  <span class="glyphicon glyphicon-tag text-primary"> Nouvelles</span>
+                </li>
+                <li class="list-group-item">
+                  <span class="glyphicon glyphicon-file text-primary">  Lettres</span>
+                </li>
+                <li class="list-group-item">
+                  <span class="glyphicon glyphicon-comment text-primary"> Commentaires</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $("#btn").click(function(){
+        with($(this)){
+          button('loading');
+          setTimeout(function(){
+            button("reset");
+          }, 4000)
+        }
+      });
+      $(".carousel").carousel();
+      $('a').tooltip();
+      $("#popover").popover();
+    </script>
+
+  </body>
+</html>
